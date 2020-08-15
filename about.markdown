@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+![PBB picture](/assets/images/pbb.jpg)
 
 With my professional career background with the Agricultural Development Bank for more than 25 years, now I am trying to pursue my own passion for growing herbal plants and keeping our environment clean.  
 
