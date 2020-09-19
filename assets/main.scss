@@ -1,0 +1,35 @@
+---
+---
+@import "minima";
+
+.site-title { font-family: Lobster;
+              font-style: normal;
+              font-weight: normal;
+              }
+
+.site-title, .site-title:visited { color: #33691E; }
+
+.showcase-title-start{
+       font-family: Baskerville Old Face;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 24px;
+       line-height: 24px;
+
+       /* Darkgreen */
+       color: #33691E;
+}
+
+.showcase-title-end{
+        font-family: Baskerville Old Face;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 48px;
+
+        /* Darkgreen */
+        color: #33691E;
+ }
+
+
+
