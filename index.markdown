@@ -7,11 +7,9 @@ layout: default
 
 <div>
 <span class="showcase-title-start">
-Providing a variety of high valued 
-</span>
+Providing you a variety of</span>
 <br />
 <span class="showcase-title-end">
-plants in reasonable price
-</span>
+HIGH VALUED PLANTS</span>
 </div>
 ![Dragon Fruit picture](/assets/images/dragon.jpg)
