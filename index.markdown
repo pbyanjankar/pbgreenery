@@ -4,6 +4,19 @@
 
 layout: default
 ---
+<div class="div-banner">
+<br/>
+<span class="header-banner-start">Welcome to the world of</span>
+<br/>
+<span class="header-banner-end">PLANTS</span>
+<br/>
+<p class="header-banner-text">
+We are a nursery specialising in high value plants which includes Dragon Fruit plants, herbal plant, fruit & ornamental trees, and scented flowering plants.
+Did you know that Dragon Fruit plants - a cactus plant bears fruits and are edible and tasty!
+</p>
+
+
+</div>
 <div>
 <img src="/assets/images/line.png"/>
 <img src="/assets/images/twig-plant-drawing.png"/>
