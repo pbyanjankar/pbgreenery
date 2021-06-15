@@ -125,7 +125,7 @@ p {
     line-height: var(--xxl);
     letter-spacing: 0.06em;
     text-align: left;
-    margin-bottom: var(--md);
+    margin-bottom: var(--xl);
 }
 
 /*flex*/
