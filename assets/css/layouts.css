@@ -62,6 +62,14 @@ img {
     background-repeat: no-repeat;
 }
 
+/*link */
+.link{
+    color: var(--primary-color);
+    font-weight: bold;
+    text-decoration: underline;
+    word-break: break-all;
+}
+
 /*text*/
 .primary-font-color {
     color: var(--primary-color);
@@ -117,6 +125,7 @@ p {
     line-height: var(--xxl);
     letter-spacing: 0.06em;
     text-align: left;
+    margin-bottom: var(--md);
 }
 
 /*flex*/
@@ -427,7 +436,7 @@ thead th{
 
     .description {
         font-size: var(--sm);
-        line-height: var(--xl);
+        line-height: var(--md);
         letter-spacing: 0.06em;
     }
 

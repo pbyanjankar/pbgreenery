@@ -1,0 +1,15 @@
+.about .about-image{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.about .about-image img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.about .about-content{
+    margin-top: var(--xl);
+}
