@@ -1,0 +1,44 @@
+/*shop*/
+.shop-heading{
+    position: relative;
+}
+
+.shop-heading .side-image{
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 336px;
+}
+
+.shop-heading .side-image img{
+    height: 100%;
+}
+
+.product-filter .filter-section .product-search{
+    width: 46%;
+}
+
+.product-filter .sort-by p{
+    margin-right: var(--md);
+}
+
+.product-filter .login-warning{
+    margin: var(--md) 0;
+}
+
+.product-filter .login-warning .warning-message{
+    width: 74%;
+}
+
+@media (max-width: 568px) {
+    .shop-heading .side-image{
+        display: none;
+    }
+
+    .product-filter .login-warning .warning-message, .product-filter .filter-section .product-search{
+        width: 100%;
+        margin-bottom: var(--md);
+    }
+
+}

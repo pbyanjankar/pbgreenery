@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root{
+    --primary-color: #33691E;
+    --secondary-color: #EF9525;
+    --primary-dark-color: #121E08;
+    --font-light-color: #ffffff;
+    --font-color: #101F26;
+    --logo-font: 'Lobster', cursive;
+    --primary-font: 'Montserrat', sans-serif;
+    --highlight-font: 'Playfair Display', serif;
+
+    --container-max-width: 96rem;
+    --container-width: 86vw;
+    --section-padding: 3vh 0;
+    --section-phone-padding: 1vh 0;
+    --slider-padding: 7vh 0;
+    --nav-padding: 3vh 0;
+    --footer-padding: 10vh 0;
+
+    --md: 1rem;
+    --xl: 1.4rem;
+    --xxl: 1.8rem;
+    --xxxl: 2.2rem;
+    --sm: 0.9rem;
+    --xs: 0.7rem;
+    --xxs: 0.5rem;
+}

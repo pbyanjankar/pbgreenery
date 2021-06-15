@@ -1,0 +1,27 @@
+.blog{
+    height: 100%;
+}
+
+.blog .blog-image{
+    width: 100%;
+}
+
+.blog .user .user-icon, .blogs .blogs-lists .blog .time .time-icon{
+    height: 16px;
+    width: 16px;
+    margin-right: var(--xl);
+}
+
+.blog .user .user-icon img, .blogs .blogs-lists .blog .time .time-icon img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.blog .read-more-btn{
+    padding: var(--md) 0;
+    margin-top: var(--md);
+    width: 100%;
+    text-align: center;
+}
+

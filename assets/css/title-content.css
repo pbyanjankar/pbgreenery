@@ -1,0 +1,13 @@
+.title-content {
+    width: 60%
+}
+
+.title-content p {
+    margin-top: var(--xl);
+}
+
+@media (max-width: 768px) {
+    .title-content {
+        width: 100%;
+    }
+}

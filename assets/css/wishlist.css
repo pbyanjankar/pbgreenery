@@ -1,0 +1,66 @@
+.wishlist-items .pending-items{
+    width: 76%;
+}
+
+.wishlist-items .pending-items td{
+    border: var(--xs) solid white;
+}
+
+.wishlist-items .pending-items .product-image{
+    height: 68px;
+    width: 68px;
+    min-width: 68px;
+    min-height: 68px;
+    border-radius: 8px;
+    margin-right: var(--md);
+}
+
+.wishlist-items .pending-items .price{
+    font-size: var(--xl);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.wishlist-items .pending-items  .quantity{
+    display: flex;
+    width: 135px;
+    height: 37px;
+    padding: 0 var(--md);
+    align-items: center;
+    justify-content: space-between;
+    font-size: var(--xl);
+    font-weight: bold;
+    border: 1px solid var(--primary-dark-color);
+    border-radius: 8px;
+}
+
+.wishlist-items .pending-items  .quantity .minus-btn, .wishlist-items .pending-items  .quantity .plus-btn{
+    cursor: pointer;
+}
+
+.wishlist-items .pending-items .product-image img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.wishlist-items .pending-items .delete-btn{
+    height: 24px;
+    width: 28px;
+    cursor: pointer;
+}
+
+.wishlist-items .pending-items .delete-btn img{
+    height: 100%;
+    width: initial;
+}
+
+.wishlist-items .extra-message{
+    width: 22%;
+    min-height: 288px;
+    min-width: 200px;
+    border: 1px solid var(--primary-dark-color);
+    border-radius: 8px;
+}

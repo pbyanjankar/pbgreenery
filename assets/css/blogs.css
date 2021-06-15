@@ -1,0 +1,228 @@
+/* Blogs List */
+
+.blogs {
+    line-height: initial;
+}
+
+.blogs-information .blogs-info-title {
+    width: 50%;
+    color: var(--primary-color);
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin: 1.2em 0;
+}
+
+.blogs-information .blogs-info-description {
+    width: 65%;
+}
+
+.blogs-list {
+    margin: 1em 0;
+}
+
+.blog-card {
+    width: 612px;
+    display: flex;
+    padding: 3em 0;
+}
+
+.blog-card-image {
+    width: 100%;
+}
+
+@media (max-width: 1368px) {
+    .blog-card {
+        width: 550px;
+    }
+}
+
+.blog-card-info {
+    padding: 0 1.4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blog-card-info .blog-title {
+    font-size: var(--xl);
+    font-weight: 600;
+}
+
+.blog-author, .blog-date {
+    display: flex;
+    margin-right: 1em;
+}
+
+.info-icon {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.5em;
+}
+
+.blog-card-info .read-more-btn {
+    background-color: var(--primary-color);
+    font-weight: 600;
+    height: 2.8em;
+    border-radius: 5px;
+}
+
+.blog-card-info .read-more-btn a {
+    color: var(--font-light-color);
+}
+
+.blogs-background-image img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: initial;
+}
+
+@media (max-width: 768px) {
+    .blog-card {
+        display: block;
+        padding: 2em 0;
+        width: 300px;
+    }
+
+    .blog-card-image img {
+        width: 100%;
+    }
+
+    .blog-card-info {
+        padding: 0;
+    }
+
+    .blogs-information .blogs-info-description {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .blog-card {
+        display: block;
+        padding: 2em 0;
+        width: 100%;
+    }
+
+    .blog-card-image img {
+        width: 100%;
+    }
+
+    .blog-card-info {
+        padding: 0;
+    }
+
+    .blogs-information .blogs-info-description {
+        width: 100%;
+    }
+}
+
+/* Blog Details Page */
+
+.blog-details-container {
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 4.5em 9em;
+    margin: 3em 0;
+}
+
+.blog-detail-title {
+    color: var(--primary-color);
+    font-size: var(--xxxl);
+    font-weight: 600;
+}
+
+.blog-content .cover-image img {
+    width: 100%;
+    height: 330px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-top: 2.5em;
+}
+
+.blog-content .blog-content-sections {
+    display: flex;
+}
+
+.blog-content .blog-content-sections .blog-content-left {
+    text-align: justify;
+    padding: 2.5em 2.5em 2.5em 0;
+}
+
+.blog-content .blog-content-sections .blog-content-right {
+    text-align: justify;
+    padding: 2.5em 0 2.5em 2.5em;
+}
+
+.blog-content .blog-content-sections img {
+    margin: 1.5em 0;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.blog-upload-info .info {
+    margin: 1.5em 1.5em 0 0;
+}
+
+.blog-btns {
+    font-size: 1em;
+    font-weight: 600;
+    background-color: var(--primary-color);
+    padding: 0.4em 1.5em;
+    border-radius: 5px;
+}
+
+.blog-btns a {
+    color: var(--font-light-color);
+    padding: 1.em;
+}
+
+.similar-blogs {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.6em 0 3.0em 0;
+}
+
+.similar-blogs-container .title {
+    color: var(--primary-color);
+    font-size: var(--xxxl);
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+@media (max-width: 768px) {
+    .blog-details-container {
+        padding: 1em 2em;
+    }
+
+    .blog-content .blog-content-sections .blog-content-left {
+        padding: 2.5em 1em 2.5em 0;
+    }
+    
+    .blog-content .blog-content-sections .blog-content-right {
+        padding: 2.5em 0 2.5em 1em;
+    }
+}
+
+@media (max-width: 576px) {
+    .blog-details-container {
+        padding: 1em 2em;
+    }
+    
+    .blog-content .blog-content-sections {
+        display: block;
+    }
+
+    .blog-content .blog-content-sections .blog-content-left {
+        padding: 0;
+    }
+    
+    .blog-content .blog-content-sections .blog-content-right {
+        padding: 0;
+    }
+
+    .similar-blogs {
+        display: block;
+    }
+}
