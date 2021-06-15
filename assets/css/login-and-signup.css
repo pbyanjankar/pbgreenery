@@ -1,0 +1,137 @@
+/*login and signup*/
+.login-and-signup{
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.login-and-signup .left-section, .login-and-signup .right-section{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-and-signup .left-section{
+    background-color: var(--primary-color);
+    color: var(--font-light-color);
+    opacity: 0.8;
+}
+
+.login-and-signup .left-section .input-group{
+    margin: var(--md) 0;
+    padding: var(--sm) 0;
+    width: 100%;
+    border-color: var(--font-light-color);
+}
+
+.login-and-signup .left-section input{
+    background: var(--primary-color);
+    color: var(--font-light-color);
+}
+
+.login-and-signup .left-section input::placeholder{
+    color: var(--font-light-color);
+}
+
+.login-and-signup .left-section form{
+    width: 64%;
+    max-width: 32rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.login-and-signup .left-section .logo{
+    margin: var(--md) 0;
+}
+
+.login-and-signup .left-section p a{
+    font-weight: bold;
+    color: var(--font-light-color);
+    text-decoration: underline;
+}
+
+.login-and-signup .left-section a:hover{
+    color: var(--secondary-color);
+}
+
+.login-and-signup .left-section .btn{
+    width: 100%;
+    margin: var(--xxl);
+    font-size: var(--xl);
+    font-weight: bold;
+    padding: var(--sm) 0;
+}
+
+.login-and-signup .left-section p{
+    margin: var(--xs) 0;
+    color: var(--font-light-color);
+}
+
+.login-and-signup .left-section .warning-message{
+    color: var(--font-light-color);
+    width: 100%;
+    text-align: left;
+    margin: 0;
+}
+
+.login-and-signup .right-section{
+    position: relative;
+}
+
+.login-and-signup .right-section .nav{
+    padding: var(--md);
+}
+
+.login-and-signup .right-section .container{
+    width: 84%;
+}
+
+.login-and-signup .right-section .title-section{
+    margin: auto;
+    text-align: center;
+}
+
+.login-and-signup .right-section .title-section .sub-title{
+    font-weight: normal;
+    color: var(--primary-color);
+}
+
+.login-and-signup .right-section .title-section .title{
+    font-size: 64px;
+}
+
+.login-and-signup .right-section .background-image{
+    position: absolute;
+    bottom: var(--xl);
+    right: var(--xl);
+    width: 15%;
+}
+
+.login-and-signup .right-section .background-image img{
+    width: 100%;
+}
+
+@media (max-width: 900px){
+    .login-and-signup{
+        height: initial;
+    }
+
+    .login-and-signup .left-section{
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .login-and-signup .left-section form{
+        width: 90%;
+    }
+
+    .login-and-signup .right-section{
+        display: none;
+    }
+}

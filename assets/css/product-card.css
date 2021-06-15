@@ -1,0 +1,113 @@
+.products-lists{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.product{
+    position: relative;
+    height: 100%;
+    width: 22%;
+    margin: var(--xl) 0;
+    margin-right: 4%;
+}
+
+.product .product-image{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product .product-image img{
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+.product .product-content{
+    margin: var(--md) 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.product .product-content p{
+    font-weight: bold;
+}
+
+.product .product-content .currency{
+    font-weight: bold;
+    text-align: right;
+    font-size: var(--xl);
+}
+
+.product .add-to-cart-btn{
+    margin-top: var(--md);
+    width: 100%;
+}
+
+.product .add-to-cart-btn .cart-icon {
+    margin: 0 var(--sm);
+    height: 22px;
+    width: 22px;
+}
+
+.product .add-to-cart-btn .cart-icon img{
+    height: 100%;
+    width: 100%;
+}
+
+.product .add-to-cart-btn .sub-title{
+    color: var(--font-light-color);
+    text-align: center;
+    margin: auto;
+    font-weight: normal;
+}
+
+.product .heart{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    height: 24px;
+    width: 27px;
+    cursor: pointer;
+    background: url("../images/heart-outfilled.png");
+}
+
+.product .heart:hover{
+    background: url("../images/heart-filled.png");
+}
+
+.product .hearted{
+    background: url("../images/heart-filled.png");
+}
+
+@media (min-width: 1024px) {
+    .products-lists .product:nth-child(4n){
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 568px) and (max-width: 1024px) {
+    .products-lists .product:nth-child(3n){
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .products-lists .product{
+        width: 32%;
+        margin-right: 2%;
+    }
+
+    .products-lists .product .product-content .currency{
+        font-size: var(--md);
+    }
+}
+
+@media (max-width: 568px) {
+    .products-lists .product{
+        width: 100%;
+        margin-right: 0;
+    }
+}
