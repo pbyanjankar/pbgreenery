@@ -67,6 +67,14 @@ img {
     color: var(--primary-color);
 }
 
+.text-white{
+    color: var(--font-light-color) !important;
+}
+
+.text-center{
+    text-align: center;
+}
+
 .title {
     font-family: var(--highlight-font);
     font-size: 48px;

@@ -368,7 +368,7 @@ nav {
     mix-blend-mode: multiply;
 }
 
-.video .background-image .video-player-overview .outline{
+.video .background-image .outline{
     position: absolute;
     left: 50%;
     top: 50%;
