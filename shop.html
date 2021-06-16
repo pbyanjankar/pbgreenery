@@ -62,11 +62,11 @@
         <div class="container">
             <div class="products-tabs-container">
                 <ul class="tab-items flex justify-between">
-                    <li class="tab-item active">Succulents</li>
-                    <li class="tab-item">Seeds</li>
-                    <li class="tab-item">Fruit Plants</li>
-                    <li class="tab-item">Flower Plants</li>
-                    <li class="tab-item">Fertilizers</li>
+                    <li id="succulents-tab" class="product-tab-item tab-item active" onclick="tabClickHandler('succulents-tab','succulents')">Succulents</li>
+                    <li id="seeds-tab" class="product-tab-item tab-item" onclick="tabClickHandler('seeds-tab','seeds')">Seeds</li>
+                    <li id="fruit-plants-tab" class="product-tab-item tab-item" onclick="tabClickHandler('fruit-plants-tab','fruit-plants')">Fruit Plants</li>
+                    <li id="flower-plant-tab" class="product-tab-item tab-item" onclick="tabClickHandler('flower-plant-tab','flower-plants')">Flower Plants</li>
+                    <li id="fertilizers-tab" class="product-tab-item tab-item" onclick="tabClickHandler('fertilizers-tab','fertilizers')">Fertilizers</li>
                 </ul>
             </div>
             <div class="filter-section flex justify-between flex-wrap">
@@ -94,8 +94,8 @@
     </section>
     <section class="shop-product">
         <div class="container">
-            <div class="flex justify-between items-center">
-                <div class="products-lists">
+            <div class="tab-contents flex justify-between items-center">
+                <div id="succulents" class="tab-content products-lists">
                     <div class="product flex flex-column justify-between">
                         <div class="heart"></div>
                         <div class="product-image">
@@ -103,6 +103,462 @@
                         </div>
                         <div class="product-content flex justify-between">
                             <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart hearted"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="seeds" class="tab-content products-lists">
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Seeds</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart hearted"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="fruit-plants" class="tab-content products-lists">
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">fruit</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart hearted"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="flower-plants" class="tab-content products-lists">
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">flower</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart hearted"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">Abcd Succulent Plant With Vase</p>
+                            <p class="currency flex-1">Rs 1200</p>
+                        </div>
+                        <div class="add-to-cart-btn btn btn-primary flex items-center">
+                            <div class="cart-icon"><img src="./assets/images/cart-icon.svg" alt=""></div>
+                            <p class="sub-title flex">Add to cart</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="fertilizers" class="tab-content products-lists">
+                    <div class="product flex flex-column justify-between">
+                        <div class="heart"></div>
+                        <div class="product-image">
+                            <img src="./assets/images/flower3.png" alt="">
+                        </div>
+                        <div class="product-content flex justify-between">
+                            <p class="flex-2">fertilizers</p>
                             <p class="currency flex-1">Rs 1200</p>
                         </div>
                         <div class="add-to-cart-btn btn btn-primary flex items-center">
@@ -266,5 +722,6 @@
     </div>
 </footer>
 <script src="./assets/js/nav.js"></script>
+<script src="./assets/js/shopTabSwitcher.js"></script>
 </body>
 </html>
