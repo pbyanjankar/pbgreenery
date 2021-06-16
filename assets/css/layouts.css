@@ -262,6 +262,7 @@ thead th{
 /*slider*/
 .slider{
     padding: var(--slider-padding);
+    width: 100%;
 }
 
 .swiper-slide{
