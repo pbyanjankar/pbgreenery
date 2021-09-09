@@ -23,7 +23,7 @@ function populateTable(csv) {
           { "type": "string" },
           { "type": "string" },
           { "type": "string" },
-          { "type": "num" },
+          { "type": "num-fmt", render: $.fn.dataTable.render.number( ',', '.', 0 ) },
           { "type": "num-fmt",
                     render: $.fn.dataTable.render.number( ',', '.', 2 )
 
