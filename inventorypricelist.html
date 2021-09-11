@@ -44,7 +44,7 @@
           if(status=200){
             data = $.csv.toArrays(response, {separator: ',', delimiter: '"'});
             populateTable(data);
-            populateFileAge(xhr.getResponseHeader("Date"),xhr.getResponseHeader("Last-Modified"));
+            populateFileAge(xhr.getResponseHeader("date"),xhr.getResponseHeader("last-modified"));
           }
         }   
       
