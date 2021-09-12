@@ -42,7 +42,7 @@ function populateTable(csvData) {
 
 function populateFileAge(date1, date2) {
   try {
-      var diff = getAge( (new Date()).getUTCDate() , new Date(date2) );
+      var diff = getAge( new Date(date1) , new Date(date2) );
       $('#file-age').append(diff);
   } catch(err) {
       return console.log(err.message);
