@@ -50,7 +50,7 @@ function populateFileAge(date1, date2) {
 }
 
 function getAge(date1, date2) {
-  let milliSec = Math.abs(date1 - date2) / 1000;
+  var milliSec = Math.abs(date1 - date2) / 1000;
   const days = Math.floor(milliSec / 86400);
   const lastModified = "Last modified: ";
   
