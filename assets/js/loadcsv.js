@@ -52,36 +52,36 @@ function populateFileAge(date1, date2) {
 function getAge(date1, date2) {
   let milliSec = Math.abs(date1 - date2) / 1000;
   const days = Math.floor(milliSec / 86400);
-  const lastModified = "Last modified: "
+  const lastModified = "Last modified: ";
   
   if(days>1){
-    return lastModified + days + " days ago"
+    return lastModified + days + " days ago";
   }
   
   if(days==1){
-    return lastModified + days + " day ago"
+    return lastModified + days + " day ago";
   }
 
   milliSec -= days * 86400;
   const hours = Math.floor(milliSec / 3600) % 24;
 
   if(hours>1){
-    return lastModified + hours + " hours ago"
+    return lastModified + hours + " hours ago";
   }
 
   if(hours==1){
-    return lastModified + hours + " hour ago"
+    return lastModified + hours + " hour ago";
   }
 
 
   milliSec -= hours * 3600;
   const minutes = Math.floor(milliSec / 60) % 60;
   if(minutes>1){
-    return lastModified + minutes + " minutes ago"
+    return lastModified + minutes + " minutes ago";
   }
 
   if(minutes >= 0 ){
-    return lastModified + minutes + " minute ago"
+    return lastModified + minutes + " minute ago";
   }
 
 
